@@ -1,0 +1,46 @@
+.card{
+  border: 1px solid white;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.cardFrame{
+  max-width: 150px;
+  border: 1px solid white;
+  border-radius: 18px;
+}
+
+.cardName{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+
+}
+
+.cardDesc{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
