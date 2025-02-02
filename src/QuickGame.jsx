@@ -1,11 +1,14 @@
 
-
+import React from 'react';
+import GameSetupCard from './GameSetupCard/GameSetupCard';
 
 function QuickGame() {
     return (
-        <div>
-        <h1>Quick Game</h1>
-        </div>
+        (<>
+            <div className = "container">
+              <GameSetupCard cardName = "Game Length" bigcardName = "Team Compositon"/>
+            </div>
+          </>)
     );
 }
 
