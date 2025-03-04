@@ -14,6 +14,7 @@
     background-color: black; /* Black background */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   }
+
   .bigcard{
     border: 1px solid white;
     border-radius: 18px;
@@ -43,8 +44,22 @@
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-  
   }
+
+  .timeText{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    padding: 2px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+
   
 
   
