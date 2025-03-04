@@ -1,65 +1,94 @@
 .card{
-    border: 1px solid white;
-    border-radius: 18px;
-    box-shadow: 5px 5px 5px black;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 30vw;
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    align-items: center; /* Center items horizontally */
-    background-color: black; /* Black background */
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  }
+  border: 1px solid white;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 30vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center; /* Center items horizontally */
+  background-color: black; /* Black background */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
 
-  .bigcard{
-    border: 1px solid white;
-    border-radius: 18px;
-    box-shadow: 5px 5px 5px black;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 70vw;
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    align-items: center; /* Center items horizontally */
-    background-color: black; /* Black background */
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  }
-  
-  
-  .cardName{
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 22px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #FFFFFF;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-  }
+.cardSection{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 10%;
+}
 
-  .timeText{
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 30px;
-    padding: 2px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #FFFFFF;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-  }
+.bigcardSection{
+  display: flex;
+  align-items: top;
+  height: 80%;
+}
 
-  
+.teamSection{
+  padding-right: 75px;
+  padding-left: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
 
-  
+.bigcard{
+  border: 1px solid white;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 70vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center; /* Center items horizontally */
+  background-color: black; /* Black background */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+.cardName{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.timeText{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+
+.buttonDes {
+  margin-left: 5px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+
